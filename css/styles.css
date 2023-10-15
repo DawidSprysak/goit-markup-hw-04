@@ -380,3 +380,47 @@ ol {
 .t-member {
   padding: 32px 0px;
 }
+
+.team-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.team-socials-link {
+  display: block;
+  background-color: var(--primary-brand-color);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-socials-link {
+  display: block;
+  background-color: var(--primary-brand-color);
+  border-radius: 50%;
+  height: 112px;
+  width: 264px;
+}
+
+.socials-icon {
+  fill: var(--light-color);
+  height: 16px;
+  width: 16px;
+}
+
+.customers-layout .customers-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
