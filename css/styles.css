@@ -158,6 +158,12 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.social-paragraph {
+  font-weight: 500;
+  color: var(--white-background-color);
+  margin-bottom: 16px;
+}
+
 .portfolio {
   background-color: var(--white-background-color);
   padding-top: 96px;
@@ -407,10 +413,7 @@ ol {
 
 .footer-socials {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 8px;
+  gap: 16px;
 }
 
 .team-socials-item {
@@ -437,12 +440,36 @@ ol {
   background-color: var(--pressed-state-color);
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-layout {
+  gap: 120px;
+}
+
+.footer-socials-item {
+  width: 40px;
+  height: 40px;
+}
+
 .footer-socials-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--primary-brand-color);
   border-radius: 50%;
-  height: 112px;
-  width: 264px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-socials-link:hover {
+  background-color: var(--success-color);
+}
+
+.footer-socials-link:focus {
+  background-color: var(--success-color);
 }
 
 .socials-icon {
