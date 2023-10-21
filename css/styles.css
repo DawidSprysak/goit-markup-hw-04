@@ -380,6 +380,10 @@ ol {
   border-top: none;
 }
 
+.a-card .paragraph {
+  font-weight: 400;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
